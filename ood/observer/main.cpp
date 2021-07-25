@@ -9,8 +9,6 @@ int main() {
     Observable* robin = new Observable("Robin");
     Observable* joker = new Observable("Joker");
 
-    catwoman->addObserver(batman);
-
     superman->addObservable(robin);
     superman->addObservable(joker);
 
